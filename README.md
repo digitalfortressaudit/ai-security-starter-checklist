@@ -2,9 +2,9 @@
 
 Free checks for teams shipping an LLM feature: **five copy-paste audit prompts** and **one read-only repository scan**. Use them on systems you own or are explicitly allowed to review.
 
-The prompts live in [CHECKLIST.md](CHECKLIST.md). The scanner is [scripts/llm_pipeline_repo_scan.py](scripts/llm_pipeline_repo_scan.py). It looks for hardcoded credentials, broad tool permissions, and agent-style routes with no authentication check nearby. It only reads files.
+**Want the full pack?** [AI Security & Infrastructure Prompt Pack ($99)](https://fortressaudit.gumroad.com/l/myyeen) — 62 prompts, 6 templates, and 5 scripts, including MCP tool poisoning, OWASP agentic threats, MAESTRO, and Kubernetes/cloud reviews. Sold at [fortressaudit.gumroad.com](https://fortressaudit.gumroad.com).
 
-**[AI Security & Infrastructure Prompt Pack ($99)](https://fortressaudit.gumroad.com/l/myyeen)** — the full Digital Fortress pack: 62 prompts, 6 templates, and 5 scripts, including MCP tool poisoning, OWASP agentic threats, MAESTRO, and Kubernetes/cloud reviews. Sold at [fortressaudit.gumroad.com](https://fortressaudit.gumroad.com).
+The prompts live in [CHECKLIST.md](CHECKLIST.md). The scanner is [scripts/llm_pipeline_repo_scan.py](scripts/llm_pipeline_repo_scan.py). It looks for hardcoded credentials, broad tool permissions, and agent-style routes with no authentication check nearby. It only reads files.
 
 ## Authorized use
 
@@ -58,10 +58,6 @@ Patterns are heuristics. A clean run is not a pentest. A hit on a route means �
 | One script | Read-only scan of a local tree |
 
 Templates, the other four scripts, and the remaining prompts are only in the paid pack.
-
-## Topics
-
-ai-security, llm-security, prompt-injection, threat-modeling, devsecops, checklist
 
 ## Full pack
 
