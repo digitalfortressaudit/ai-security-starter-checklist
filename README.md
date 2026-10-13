@@ -68,3 +68,5 @@ Digital Fortress publishes the **AI Security & Infrastructure Prompt Pack** for 
 ## License
 
 [MIT](LICENSE) © 2026 Digital Fortress / digitalfortressaudit. Authorized defensive use only, as described above.
+
+**Go deeper:** the [Agent Runtime Containment Pack ($99)](https://fortressaudit.gumroad.com/l/ngouvf) covers agent egress, identity, Kubernetes sandboxing, and tool-call authorization.
